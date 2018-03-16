@@ -46,7 +46,7 @@ class RedisAdapter
     /**
      * @param \Redis|Client $redisInstance
      */
-    private function __construct($redisInstance)
+    public function __construct($redisInstance)
     {
         $this->redis = $redisInstance;
     }
